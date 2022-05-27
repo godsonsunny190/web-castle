@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@400;500;700&display=swap');
+
+/* Globel reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Jost', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+img{
+    width: 100%;
+    object-fit: cover;
+}
+
+html{
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+/* ******************************* */
+/* Typograpy */
+
+h1{
+    font-size: 50px;
+    font-weight: 700;
+    color: black;
+}
+
+h2{
+    font-size: 36px;
+    font-weight: 500;
+    color: black;
+}
+
+p{
+    font-size: 16px;
+    font-weight: 400;
+    color: black;
+    word-wrap: break-word;
+}
+
+.arrow{
+    display:inline-block;
+    width: 90px;
+    padding: 0 24px;
+}
+
+.cta{
+    display: inline-block;
+    padding: 8px 23px;
+    color: black;
+    border: 1px solid black;
+    text-decoration: none;
+}
+
